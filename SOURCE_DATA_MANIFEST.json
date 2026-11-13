@@ -1,0 +1,572 @@
+[
+  {
+    "source": "Beijing-HangzhouGrandCanalshp/Beijing-HangzhouGrandCanal.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "Beijing-HangzhouGrandCanalshp/Beijing-HangzhouGrandCanal.dbf",
+    "bytes": 370,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "Beijing-HangzhouGrandCanalshp/Beijing-HangzhouGrandCanal.prj",
+    "bytes": 266,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "Beijing-HangzhouGrandCanalshp/Beijing-HangzhouGrandCanal.shp",
+    "bytes": 263868,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/CountryLevelSites/CountryLevelSites.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/CountryLevelSites/CountryLevelSites.dbf",
+    "bytes": 1229898,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/CountryLevelSites/CountryLevelSites.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/CountryLevelSites/CountryLevelSites.shp",
+    "bytes": 5700,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/ProvinceLevelSites/ProvinceLevelSites.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/ProvinceLevelSites/ProvinceLevelSites.dbf",
+    "bytes": 2698553,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/ProvinceLevelSites/ProvinceLevelSites.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/ProvinceLevelSites/ProvinceLevelSites.shp",
+    "bytes": 12392,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/WorldLevelSites/WorldLevelSites.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/WorldLevelSites/WorldLevelSites.dbf",
+    "bytes": 357308,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/WorldLevelSites/WorldLevelSites.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "HeritageSitesBHGC/WorldLevelSites/WorldLevelSites.shp",
+    "bytes": 1724,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/mingqing_Canal.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/mingqing_Canal.dbf",
+    "bytes": 451,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/mingqing_Canal.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/mingqing_Canal.shp",
+    "bytes": 1484,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/qin_Canal.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/qin_Canal.dbf",
+    "bytes": 344,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/qin_Canal.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/qin_Canal.shp",
+    "bytes": 452,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/song_Canal.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/song_Canal.dbf",
+    "bytes": 451,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/song_Canal.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/song_Canal.shp",
+    "bytes": 1036,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/SuiTang_Canal.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/SuiTang_Canal.dbf",
+    "bytes": 772,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/SuiTang_Canal.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/SuiTang_Canal.shp",
+    "bytes": 3396,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/Yuan_Canal.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/Yuan_Canal.dbf",
+    "bytes": 558,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/Yuan_Canal.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "historical_data/Yuan_Canal.shp",
+    "bytes": 2148,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_县_WGS1984/中国_县1.dbf",
+    "bytes": 175,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_县_WGS1984/中国_县1.prj",
+    "bytes": 132,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_县_WGS1984/中国_县1.shp",
+    "bytes": 23852,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_县_WGS1984/中国_县2.dbf",
+    "bytes": 159103,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_县_WGS1984/中国_县2.prj",
+    "bytes": 132,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_县_WGS1984/中国_县2.shp",
+    "bytes": 6967240,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_市_WGS1984/中国_市1.dbf",
+    "bytes": 241,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_市_WGS1984/中国_市1.prj",
+    "bytes": 132,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_市_WGS1984/中国_市1.shp",
+    "bytes": 30204,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_市_WGS1984/中国_市2.dbf",
+    "bytes": 16223,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_市_WGS1984/中国_市2.prj",
+    "bytes": 132,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_市_WGS1984/中国_市2.shp",
+    "bytes": 2983784,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_省_WGS1984/中国_省1.dbf",
+    "bytes": 186,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_省_WGS1984/中国_省1.prj",
+    "bytes": 132,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_省_WGS1984/中国_省1.shp",
+    "bytes": 18816,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_省_WGS1984/中国_省2.dbf",
+    "bytes": 1254,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_省_WGS1984/中国_省2.prj",
+    "bytes": 132,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "中国行政区划/【GS（2024）0650号】中国_省_WGS1984/中国_省2.shp",
+    "bytes": 1188936,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "标准国界/标准国界.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "标准国界/标准国界.dbf",
+    "bytes": 2356,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "标准国界/标准国界.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "标准国界/标准国界.shp",
+    "bytes": 5550448,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/dem.tif",
+    "bytes": 309937482,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/dem.tif.vat.cpg",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/dem.tif.vat.dbf",
+    "bytes": 162071,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem_250m/dem_250m.ovr",
+    "bytes": 114867201,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/一级河流.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/一级河流.dbf",
+    "bytes": 131661,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/一级河流.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/一级河流.shp",
+    "bytes": 795316,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/三级河流.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/三级河流.dbf",
+    "bytes": 163687,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/三级河流.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/三级河流.shp",
+    "bytes": 884668,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/二级河流.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/二级河流.dbf",
+    "bytes": 103459,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/二级河流.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/二级河流.shp",
+    "bytes": 487356,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/五级河流.dbf",
+    "bytes": 783930,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/五级河流.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/五级河流.shp",
+    "bytes": 4214236,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/四级河流.dbf",
+    "bytes": 262530,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/四级河流.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/四级河流.shp",
+    "bytes": 1616500,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/湖泊.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/湖泊.dbf",
+    "bytes": 163108,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/湖泊.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/湖泊.shp",
+    "bytes": 1505252,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/运河.CPG",
+    "bytes": 5,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/运河.dbf",
+    "bytes": 7620,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/运河.prj",
+    "bytes": 145,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/waterways/运河.shp",
+    "bytes": 40996,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/北京/北京.tif.ovr",
+    "bytes": 31553928,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/天津/天津市.tif.ovr",
+    "bytes": 246719,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/安徽/安徽.tif.ovr",
+    "bytes": 194933823,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/江苏/江苏.tif.ovr",
+    "bytes": 89031842,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/河北/河北.tif.ovr",
+    "bytes": 305789846,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/河南/河南.tif.ovr",
+    "bytes": 230632622,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  },
+  {
+    "source": "source_data/dem/浙江/浙江.tif.ovr",
+    "bytes": 278369290,
+    "included": false,
+    "note": "原始开发资料保留；运行使用public内派生数据"
+  }
+]

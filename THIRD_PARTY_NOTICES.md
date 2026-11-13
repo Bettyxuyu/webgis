@@ -1,0 +1,61 @@
+# 第三方依赖与许可证
+依赖版本由package-lock.json锁定；以下为当前安装包的许可证记录。
+
+- @mapbox/jsonlint-lines-primitives 2.0.3：MIT
+- @mapbox/point-geometry 1.1.0：ISC
+- @mapbox/tiny-sdf 2.3.0：BSD-2-Clause
+- @mapbox/unitbezier 1.0.0：BSD-2-Clause
+- @mapbox/vector-tile 3.0.0：BSD-3-Clause
+- @maplibre/geojson-vt 6.3.1：ISC
+- @maplibre/maplibre-gl-style-spec 26.6.0：ISC
+- @maplibre/mlt 1.3.0：(MIT OR Apache-2.0)
+- @maplibre/vt-pbf 4.3.3：MIT
+- @oxc-project/types 0.156.0：MIT
+- @petamoriken/float16 3.9.3：MIT
+- @rolldown/binding-win32-x64-msvc 1.2.18：MIT
+- @rolldown/pluginutils 1.1.0：MIT
+- @types/geojson 7946.0.16：MIT
+- @types/rbush 4.0.0：MIT
+- @zarrita/storage 0.2.0：MIT
+- bidi-js 1.1.0：MIT
+- detect-libc 2.1.2：Apache-2.0
+- earcut 3.2.4：ISC
+- fdir 6.5.0：MIT
+- fflate 0.8.3：MIT
+- geotiff 3.1.0-beta.0：MIT
+- gl-matrix 3.4.4：MIT
+- json-stringify-pretty-compact 4.0.0：MIT
+- kdbush 4.1.0：ISC
+- lerc 3.0.0：Apache-2.0
+- lightningcss 1.33.0：MPL-2.0
+- lightningcss-win32-x64-msvc 1.33.0：MPL-2.0
+- maplibre-gl 6.17.0：BSD-3-Clause
+- minimist 1.2.8：MIT
+- murmurhash-js 1.0.0：MIT
+- nanoid 3.3.20：MIT
+- numcodecs 0.3.2：MIT
+- ol 10.11.0：BSD-2-Clause
+- pako 2.2.0：(MIT AND Zlib)
+- parse-headers 2.0.6：MIT
+- pbf 5.1.2：BSD-3-Clause
+- picocolors 1.1.1：ISC
+- picomatch 4.0.7：MIT
+- postcss 8.5.32：MIT
+- potpack 2.1.0：ISC
+- protocol-buffers-schema 3.6.1：MIT
+- quick-lru 6.1.2：MIT
+- quickselect 3.0.0：ISC
+- rbush 4.0.1：MIT
+- reference-spec-reader 0.2.0：MIT
+- require-from-string 2.0.2：MIT
+- resolve-protobuf-schema 2.1.0：MIT
+- rolldown 1.2.18：MIT
+- source-map-js 1.2.2：BSD-3-Clause
+- tinyglobby 0.2.17：MIT
+- tinyqueue 3.0.0：ISC
+- unzipit 2.0.0：MIT
+- vite 8.3.7：MIT
+- web-worker 1.5.0：Apache-2.0
+- xml-utils 1.10.2：CC0-1.0
+- zarrita 0.7.5：MIT
+- zstddec 0.2.0：MIT AND BSD-3-Clause

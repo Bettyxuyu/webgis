@@ -1,0 +1,20 @@
+{
+  "name": "canal-heritage-webgis",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:review": "vite build --mode review --outDir dist-review",
+    "preview:review": "vite preview --outDir dist-review"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "maplibre-gl": "^6.17.0",
+    "ol": "^10.11.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.7"
+  }
+}

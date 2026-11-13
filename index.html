@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="沿京杭大运河浏览文化遗产点与省级区划的课程 WebGIS 图谱。">
+    <meta name="theme-color" content="#E5E4D9">
+    <link rel="icon" href="/logo.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="/logo.webp">
+    <title>运河千年——中国大运河文化遗产数字档案</title>
+  </head>
+  <body>
+    <section id="opening" hidden role="dialog" aria-modal="true" aria-labelledby="opening-title">
+      <svg id="opening-map" viewBox="0 0 940 760" aria-hidden="true"></svg>
+      <div class="opening-copy"><p>中国大运河文化遗产数字档案</p><h2 id="opening-title">运河千年</h2></div>
+      <button id="skip-opening" type="button">跳过</button>
+    </section>
+    <header class="masthead">
+      <a class="identity" href="#prologue" aria-label="运河千年首页">
+        <img src="/logo.webp" width="40" height="40" alt="运河千年Logo">
+        <strong>运河千年</strong><span>中国大运河文化遗产数字档案</span>
+      </a>
+      <nav class="chapters" aria-label="章节导航">
+        <a href="#prologue" aria-current="page">序章</a>
+        <a href="#atlas">运河图志</a>
+        <a href="#tour">八埠寻踪</a>
+        <a href="#history">千年水脉</a>
+        <a href="#culture">两岸人间</a>
+      </nav>
+    </header>
+    <main>
+      <section id="page-prologue" class="cover page" data-page="prologue" aria-labelledby="prologue-title">
+        <div class="cover-spread">
+          <div class="cover-copy">
+            
+            <h1 id="prologue-title" tabindex="-1">运河千年</h1>
+            <p class="cover-subtitle">中国大运河文化遗产数字档案</p>
+            <p class="cover-description">沿京杭运河，从一条河的地理脉络，读到两岸的文化遗存。</p>
+            <div class="cover-actions">
+              <a class="action" href="#atlas">进入运河图志</a>
+              <a class="text-link" href="#atlas?tour=1">开始八站巡游</a>
+            </div>
+          </div>
+          <figure class="cover-figure">
+            <img class="cover-image" src="./media/canal-index.svg" width="800" height="540"
+                 alt="根据本站真实线路和遗产点绘制的京杭大运河索引图">
+            <figcaption><strong>图 01　京杭运河索引</strong></figcaption>
+          </figure>
+        </div>
+        <div class="archive-index" aria-label="档案索引">
+          <div><strong>697</strong><span>条遗产点记录</span></div>
+          <div><strong>07</strong><span>个相关省级区划</span></div>
+          <div><strong>03</strong><span>组遗产分级图层</span></div>
+          <div class="index-note"><a class="text-link" href="#culture?section=stats">查看遗产统计</a></div>
+        </div>
+      </section>
+      <section id="page-atlas" class="workspace page detail-collapsed tools-collapsed" data-page="atlas" aria-labelledby="atlas-title" hidden>
+        <div class="atlas-actions"><button id="toggle-tools" aria-expanded="false" aria-controls="atlas-tools">搜索与图层</button><button id="enter-story">沿河而行 · 八站巡游</button></div>
+        <aside id="atlas-tools" class="sidebar" aria-label="地图查询与图层">
+          <div class="intro">
+            <p class="eyebrow"><span>02</span> 空间档案</p>
+            <h2 id="atlas-title" tabindex="-1">运河图志</h2>
+            <p>检索遗产名称，或直接在地图上选择点位。</p>
+          </div>
+          <section class="panel" aria-labelledby="search-title">
+            <h3 id="search-title">寻访遗产</h3>
+            <form id="search-form" role="search">
+              <input type="search" id="query" aria-label="遗产名称" placeholder="输入中文或英文名称" disabled>
+              <button type="submit" id="search-button" disabled>查找</button>
+            </form>
+            <div id="search-summary" class="hint" role="status">遗产数据加载后即可搜索</div>
+            <ul id="results" class="results" aria-label="遗产搜索结果"></ul>
+          </section>
+          <details class="panel layers-panel" open>
+            <summary id="layers-title">图层与图例</summary>
+            <div id="layers" class="layers"></div>
+            <p class="hint layer-note">放大可见更密集的遗产点与地名。</p>
+            <p id="terrain-status" class="hint" role="status"></p>
+            <p id="water-status" class="hint" role="status"></p>
+          </details>
+        </aside>
+        <section class="atlas" aria-label="京杭大运河地图">
+          <div id="atlas-map-host">
+          <div id="map" tabindex="0" aria-label="互动地图，可用方向键平移">
+            <div class="map-heading">
+              <strong id="map-caption">京杭大运河</strong>
+              <span id="map-status" role="status">正在加载专题数据…</span>
+              <span id="map-scene" hidden></span>
+            </div>
+            <div class="map-tools" aria-label="地图工具">
+              <span class="north" aria-label="地图上方为北">▲<small>北</small></span>
+              <button id="zoom-in" type="button" aria-label="放大" title="放大">+</button>
+              <button id="zoom-out" type="button" aria-label="缩小" title="缩小">−</button>
+              <button id="reset" type="button" aria-label="复位到运河全览" title="复位到运河全览" disabled>⌂</button>
+              <button id="terrain-overview" class="overview-button" type="button" aria-label="地形全览" title="地形全览" disabled>全</button>
+              <button id="toggle-detail" class="overview-button" type="button" aria-label="展开或收起遗产档案"
+                      title="展开或收起遗产档案" aria-controls="heritage-sidebar" aria-expanded="false">档</button>
+            </div>
+          </div>
+          </div>
+        </section>
+        <aside id="heritage-sidebar" class="detail" aria-labelledby="detail-title">
+          <div class="section-heading"><h3 id="detail-title">遗产档案</h3><button id="close-detail" type="button" hidden>关闭</button></div>
+          <div id="details" aria-live="polite"><p class="hint">点选地图标记或搜索结果，查看名称、地区与保护级别。</p></div>
+          <details id="tour-panel" class="tour-panel">
+            <summary>沿河而行 · 八站巡游</summary>
+            <div id="tour-intro"><button id="tour-start" class="editorial-button" type="button">从北京通州开始</button></div>
+            <div id="tour-content" aria-live="polite"></div>
+            <div class="node-links"><button id="tour-prev" class="editorial-button" type="button" disabled>上一站</button>
+              <button id="tour-next" class="editorial-button" type="button" disabled>下一站</button></div>
+          </details>
+        </aside>
+      </section>
+      <section id="page-history" class="editorial-page page" data-page="history" aria-labelledby="history-title" hidden>
+        <header class="history-header">
+          <h2 id="history-title" tabindex="-1">千年水脉</h2>
+          <div id="period-buttons" class="period-buttons" role="group" aria-label="历史阶段"></div>
+          <p>从江淮初通，到南北水运与古河新生</p>
+        </header>
+        <div class="history-controls"><button id="history-play" aria-pressed="false">继续</button><button id="history-replay">重新播放</button><progress id="history-progress" value="0" max="1" aria-label="本期巡演进度"></progress><span id="history-play-status" role="status">选择时期，自由探索</span></div>
+        <div class="history-spread">
+          <article id="period-article" aria-live="polite"></article>
+          <div class="history-map-frame">
+            <div id="history-map-host" aria-label="历史专题地图"></div>
+            <details id="history-legend"><summary>历史地图图例</summary><div id="history-legend-content"></div></details>
+          </div>
+        </div>
+        <details class="history-data"><summary>数据与制图说明</summary><div id="history-data-notes"></div></details>
+        <p id="history-period-note" class="history-map-note"></p>
+        <section id="history-reading" class="history-reading" aria-label="历史专题资料">
+          <h2 id="history-reading-title">运河往事</h2><div id="history-reading-content"></div>
+        </section>
+      </section>
+      <section id="page-culture" class="editorial-page page" data-page="culture" aria-labelledby="culture-title" hidden>
+        <header class="editorial-header">
+          <h2 id="culture-title" tabindex="-1">两岸人间</h2>
+          <div id="culture-intro"></div>
+        </header>
+        <div id="culture-stories"></div>
+        <section id="statistics" aria-labelledby="statistics-title">
+          <h3 id="statistics-title" tabindex="-1">数字里的运河</h3>
+          <div id="statistics-intro"></div>
+          <div id="stat-charts" class="stat-charts"></div>
+          <p id="statistics-note" class="hint" role="status">正在读取遗产统计…</p>
+          <p id="statistics-source"></p>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="/src/navigation.js"></script>
+  </body>
+</html>
